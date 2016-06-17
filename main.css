@@ -1,0 +1,42 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question-block,
+.answer-block {
+  font-size: 2rem;
+  margin: 2rem auto;
+  min-width: 80%;
+  text-align: center;
+}
+
+.question-block form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question-block textarea {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  min-width: 80%;
+}
+
+.big-button {
+  background-color: #69c;
+  border-radius: .5rem;
+  color: #fff;
+  display: flex;
+  font-size: 2rem;
+  padding: .5rem 1rem;
+}
+
+.answer-text {
+  font-weight: bold;
+  max-width: 80%;
+  margin: 0 auto;
+}
