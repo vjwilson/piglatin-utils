@@ -1,0 +1,29 @@
+{
+  "name": "piglatin",
+  "version": "0.1.0",
+  "description": "Library which translates text into Pig Latin",
+  "main": "dist/piglatin.js",
+  "scripts": {
+    "build": "babel lib/piglatin.js -o dist/piglatin.js",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vjwilson/piglatin.git"
+  },
+  "keywords": [
+    "piglatin",
+    "translation"
+  ],
+  "author": "Van J. Wilson <van.wilson1992@alumni.unc.edu> (https://vanwilson.info)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vjwilson/piglatin/issues"
+  },
+  "homepage": "https://github.com/vjwilson/piglatin#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.1"
+  }
+}
