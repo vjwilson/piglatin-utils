@@ -1,4 +1,4 @@
-# pig-latin
+# piglatin
 
 A simple JavaScript implementation of a source language-to-Pig Latin translator.
 
@@ -9,19 +9,19 @@ A simple JavaScript implementation of a source language-to-Pig Latin translator.
 To use on the server, or as a CommonJS or ES6 import that gets bundled in a build process, install this package using your package manager.
 
 ```
-npm install pig-latin
+npm install piglatin
 ```
 
 Then, to include the CommonJS version, simple require the UMD version from the `/dist/` folder.
 
 ```
-var pigLatin = require('pig-latin');
+var pigLatin = require('piglatin');
 ```
 
 If you can use ES6 imports, then import the version from the `/lib/` folder.
 
 ```
-import pigLatin from 'lib/pig-latin/pig-latin';
+import pigLatin from 'lib/piglatin/piglatin';
 ```
 
 ### Using on a webpage
@@ -29,7 +29,7 @@ import pigLatin from 'lib/pig-latin/pig-latin';
 If you don’t use a build process, and you just want to include this directly on a webpage, simple download the UMD module file in the `/dist/` folder, and include that in a `<script>` tag on your page. Be sure to include the path to any subfolder where you put that file in the `src` attribute.
 
 ```
-<script type="text/javascript" src="pig-latin.js"></script>
+<script type="text/javascript" src="piglatin.js"></script>
 ```
 
 ## Usage

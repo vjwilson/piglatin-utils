@@ -8,7 +8,7 @@
       exports: {}
     };
     factory(mod.exports);
-    global.pigLatin = mod.exports;
+    global.piglatin = mod.exports;
   }
 })(this, function (exports) {
   'use strict';
