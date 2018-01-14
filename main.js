@@ -8,7 +8,7 @@ question.addEventListener('submit', function(e) {
 
   var wordList = phrase.split(' ');
 
-  var translatedWordList = wordList.map(piglatin.translateWordToPigLatin);
+  var translatedWordList = wordList.map(piglatinUtils.translateWordToPigLatin);
 
   var newPhrase = translatedWordList.join(' ');
 

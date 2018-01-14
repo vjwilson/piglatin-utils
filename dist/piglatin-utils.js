@@ -8,7 +8,7 @@
       exports: {}
     };
     factory(mod.exports);
-    global.piglatin = mod.exports;
+    global.piglatinUtils = mod.exports;
   }
 })(this, function (exports) {
   'use strict';
